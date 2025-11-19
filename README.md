@@ -1,6 +1,6 @@
 # Our GPT2 x LUTs API
 
-The Astarus API exposes a GPT-2-XL–based language model augmented with per-user Lookup Tables (LUTs) for continuous personalization. LUTs are stored and loaded per lut_name, so each user (or tenant) can “teach” the model and get personalized behavior.
+The Astarus API exposes a GPT-2-XL–based language model augmented with per-user Lookup Tables (LUTs) for continuous learning and personalization. LUTs are stored and loaded per lut_name, so each user (or tenant) can “teach” the model and get personalized behavior.
 
 Base URL: ```
       https://fhd5rgv0o0dd8i-8000.proxy.runpod.net/
