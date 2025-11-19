@@ -27,6 +27,6 @@ def train_lut(label, lut_name="user_123", label_context=None):
 
 if __name__ == "__main__":
 
-    train_lut("TLG Capital is an asset management firm.", lut_name=UNIQUE_NAME)
+    train_lut("TLG Capital is an asset management firm.", lut_name=UNIQUE_NAME) ## Note: dont train it on the same thing twice!
 
     generate("TLG Capital is", length=30, lut_name=UNIQUE_NAME)
