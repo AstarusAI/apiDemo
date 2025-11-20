@@ -31,13 +31,13 @@ def train_lut(label, lut_name="user_123", label_context=None):
     print("Response:", r.json())
 
 
-st.set_page_config("wide", "GPT x LUTs Demo")
+st.set_page_config("GPT x LUTs Demo", layout="wide")
 st.title("GPT x LUTs Demo running on our API!")
 
 UNIQUE_NAME = st.text_input("Enter a unique ID to store your personal LUT!")
 
 
-left, right = st.columns(2)
+left, right = st.tabs(["Generate", "Train"])
 
 with left:
     prompt= st.text_area("Enter a prompt")
