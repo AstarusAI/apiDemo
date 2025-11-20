@@ -115,5 +115,5 @@ LUTs are stored in SQLite under the hood and persist across restarts.
 Cold start
 If no LUT exists yet for a given lut_name, generation falls back to the base GPT-2-XL behavior.
 
-A quick demo in python using the requests library is provided in the repo!
+A quick demo in python using the requests library is provided in the repo.
 Happy building!
