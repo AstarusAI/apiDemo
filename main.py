@@ -1,7 +1,7 @@
 import requests
 
 BASE_URL = "https://fhd5rgv0o0dd8i-8000.proxy.runpod.net/"
-UNIQUE_NAME = "myTest01"
+UNIQUE_NAME = "myTest02"
 
 def generate(prompt, length=20, lut_name=None):
     payload = {
